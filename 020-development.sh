@@ -2,7 +2,7 @@
 
 APP_REPOSITORY=$1
 if [ -z "$APP_REPOSITORY" ]; then
-  APP_REPOSITORY="https://github.com/IBM-Cloud/openshift-hello-app.git"
+  APP_REPOSITORY="https://github.com/nikhilsthomas/openshift-hello-app.git"
   echo "App repository not set, using the default"
 fi
 echo "App repository is set to $APP_REPOSITORY"
