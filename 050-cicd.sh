@@ -2,7 +2,7 @@
 
 PIPELINE_REPOSITORY=$1
 if [ -z "$PIPELINE_REPOSITORY" ]; then
-  PIPELINE_REPOSITORY="https://github.com/IBM-Cloud/openshift-hello-pipeline.git"
+  PIPELINE_REPOSITORY="https://github.com/nikhilsthomas/openshift-hello-pipeline.git"
   echo "Pipeline repository not set, using the default"
 fi
 echo "Pipeline repository is set to $PIPELINE_REPOSITORY"
